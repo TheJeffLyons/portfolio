@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+
+ul{
+    color: white;
+    list-style: none;
+    font-family: 'PT Sans Caption', sans-serif;
+    padding-right: 5px;
+}
+
+.header-link{
+    text-decoration: none;
+    /* color: white; */
+    
+}
+
+.header-link:hover{
+    color: #4ab8e0;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    margin-top: 10px;
+    border-right: 1px solid #4ab8e05e;
+    height: 84vh;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* border: 1px solid white; */
+    /* margin-top: 10px; */
+    
+    
+}
+
+.profile-pic{
+    width: 100px;
+}

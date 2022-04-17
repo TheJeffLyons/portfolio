@@ -1,0 +1,30 @@
+/* .footer-container{
+    border: 1px solid red;
+} */
+
+.stack-container {
+  display: flex;
+  flex: 8;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-top: 1px solid #1eb022;
+  padding-top: 5px;
+  flex-wrap: wrap;
+}
+
+.stack-icons {
+  width: 40px;
+  /* filter: grayscale(100%); */
+}
+
+.stack-icons:hover {
+  filter: grayscale(0%);
+}
+
+.stack-card {
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  align-items: center;
+  /* margin-bottom: 7px; */
+}

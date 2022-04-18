@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="portfolio">
+    <BrowserRouter >
    
     <div className="App">
     <div>

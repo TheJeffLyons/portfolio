@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Footer from "./components/Footer"
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
@@ -11,13 +11,13 @@ import "./App.css";
 
 function App() {
   return (
+    <BrowserRouter>
    
     <div className="App">
     <div>
           <Home />
         </div>
       <div className="top-container">
-       
      
         
           <Routes basename="portfolio">
@@ -38,7 +38,9 @@ function App() {
       </div>
     </div>
    
+  </BrowserRouter>
   );
 }
 
 export default App;
+

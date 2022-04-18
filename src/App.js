@@ -12,7 +12,7 @@ import "./App.css";
 
 function App() {
   return (
-    <HashRouter basename="/portfolio">
+    <BrowserRouter basename="/portfolio">
     <div className="App">
     <div>
           <Home />
@@ -38,7 +38,7 @@ function App() {
         <Footer />
       </div>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

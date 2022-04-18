@@ -19,7 +19,7 @@ function Education() {
         <div className='edu-left'>
             <div className='edu-card'>
             <h2><u>DevMountain</u></h2>
-                <img className='edu-icon' src='https://res.cloudinary.com/redhero/image/upload/v1649837640/Donuts/original_jj95ch.png' />
+                <img className='edu-icon' src='https://res.cloudinary.com/redhero/image/upload/v1649837640/Donuts/original_jj95ch.png' alt='' />
             </div>
             <div className='edu-text'>
             <h3>Student - Full Stack Web Developer</h3>
@@ -37,7 +37,7 @@ function Education() {
         <div className='edu-right'>
             <div className='edu-card'>
             <h2><u>Bellevue University</u></h2>
-            <img className='edu-icon1' src='https://res.cloudinary.com/redhero/image/upload/v1649837940/Donuts/958647C2-B7F7-DFD6-6B22D08B58BE6908_rzfubu.png' />
+            <img className='edu-icon1' src='https://res.cloudinary.com/redhero/image/upload/v1649837940/Donuts/958647C2-B7F7-DFD6-6B22D08B58BE6908_rzfubu.png' alt=''/>
             </div>
             <h3>Current Student - Pursuing Software Development Degree</h3>
             <p>Currently taking a course in Python</p>

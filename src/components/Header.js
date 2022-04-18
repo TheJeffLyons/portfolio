@@ -6,7 +6,7 @@ import '../styles/header.css'
 function Header() {
   return (
     <div className='header-container'>
-        <img className='profile-pic' src='https://res.cloudinary.com/redhero/image/upload/v1649819797/Donuts/11IMG_2794_lqemay.jpg' />
+        <img className='profile-pic' src='https://res.cloudinary.com/redhero/image/upload/v1649819797/Donuts/11IMG_2794_lqemay.jpg' alt=''/>
         <ul> 
 
         <Link className='header-link' to='/'>

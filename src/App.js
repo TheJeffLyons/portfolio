@@ -12,7 +12,7 @@ import "./App.css";
 
 function App() {
   return (
-    <HashRouter basename="${/portfolio}">
+    <HashRouter basename="/portfolio">
     <div className="App">
     <div>
           <Home />

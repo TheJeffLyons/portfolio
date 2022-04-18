@@ -1,6 +1,5 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
-import Header from './Header';
 import '../styles/contact.css'
 
 function Contact() {

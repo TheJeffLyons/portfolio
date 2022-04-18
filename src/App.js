@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="portfolio">
    
     <div className="App">
     <div>
@@ -20,7 +20,7 @@ function App() {
       <div className="top-container">
      
         
-          <Routes basename="portfolio">
+          <Routes >
           <Route path="/" exact element={<Landing />}/>
           <Route path="aboutme" exact element={<AboutMe />}/>
           <Route path="education" exact element={<Education />}/>

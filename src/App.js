@@ -20,7 +20,7 @@ function App() {
        
      
         
-          <Routes basename="${portfolio}">
+          <Routes basename="portfolio">
           <Route path="/" exact element={<Landing />}/>
           <Route path="aboutme" exact element={<AboutMe />}/>
           <Route path="education" exact element={<Education />}/>

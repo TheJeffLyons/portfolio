@@ -1,7 +1,3 @@
-/* .footer-container{
-    border: 1px solid red;
-} */
-
 .stack-container {
   display: flex;
   flex: 8;
@@ -14,7 +10,6 @@
 
 .stack-icons {
   width: 40px;
-  /* filter: grayscale(100%); */
 }
 
 .stack-icons:hover {
@@ -26,5 +21,4 @@
   flex-direction: column;
   font-size: smaller;
   align-items: center;
-  /* margin-bottom: 7px; */
 }

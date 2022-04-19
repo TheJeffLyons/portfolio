@@ -1,23 +1,20 @@
-.landing-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    width: 100%;
-    margin: 30px;
-    /* margin-top: 50px; */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: 30px;
 }
 
-.featured-container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    /* padding: 50px; */
-    /* flex-wrap: wrap; */
-    width: 100%;
+.featured-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+
+  width: 100%;
 }
 
-.port-youtube-video{
-    border-radius: 22px;
+.port-youtube-video {
+  border-radius: 22px;
 }
-

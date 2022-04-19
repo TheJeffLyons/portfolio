@@ -12,17 +12,12 @@
   flex: 8;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 50px; */
   flex-wrap: wrap;
 }
 
 .contact-body::-webkit-scrollbar {
   display: none;
 }
-/* 
-  .contact-title {
-    color: white;
-  } */
 
 .form-container {
   display: flex;
@@ -76,7 +71,6 @@
 .send-btn:hover {
   color: white;
   background: #1eb022;
-  /* border: solid 1px gainsboro; */
 }
 
 .vl {

@@ -1,40 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
   background-color: #efd9ce;
-  /* height: 95vh; */
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 22px;
-  /* border: 1px solid #4ab8e05e; */
   box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
   overflow: hidden;
-    overflow-y: scroll;
-    overflow-x: scroll;
-    
+  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
-.App::-webkit-scrollbar{
+.App::-webkit-scrollbar {
   display: none;
-    }
+}
 
-.top-container{
+.top-container {
   display: flex;
   flex-direction: row;
   flex: 2;
 }
-
-/* .top-left{
-  display: flex;
-  flex: 1;
-}
-
-.top-right{
-  display: flex;
-  flex: 8;
-} */
-

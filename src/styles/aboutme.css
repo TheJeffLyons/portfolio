@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .about-me-body::-webkit-scrollbar {

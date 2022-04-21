@@ -4,7 +4,6 @@
   width: 100%;
   flex-wrap: wrap;
   height: 100%;
-  
 }
 
 .about-me-body {
@@ -30,15 +29,12 @@
   justify-content: space-evenly;
   width: 100%;
   flex-wrap: wrap;
- 
-  
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   flex: 1;
-  
 }
 
 .about-photos {
@@ -47,14 +43,10 @@
   justify-content: space-evenly;
   flex: 1;
   align-items: center;
-  
-  
-  
 }
 
 .my-photos {
   width: 220px;
   height: 300px;
   border-radius: 10px;
-  
 }

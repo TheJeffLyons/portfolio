@@ -12,8 +12,8 @@ function Landing() {
       <div>
           <iframe
             className="youtube-video"
-            width="400"
-            height="250"
+            width="600"
+            height="500"
             src="https://www.youtube.com/embed/r9R_IJ1w_FU"
             title="YouTube video player"
             frameBorder="0"

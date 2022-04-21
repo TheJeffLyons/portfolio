@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/biocard.css";
 import Contact from "./Contact";
+import OpenToWork from "./OpenToWork";
 
 function BioCard() {
   return (
@@ -12,7 +13,8 @@ function BioCard() {
       />
       <br></br>
       <span className="bio-name">Jeff Lyons</span>
-      <br></br>
+      
+      <OpenToWork/>
 
       <Contact />
     </div>

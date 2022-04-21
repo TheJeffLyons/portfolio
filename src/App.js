@@ -10,7 +10,7 @@ import "./App.css";
 import Header from "./components/Header"
 import BioCard from "./components/BioCard";
 import TopBanner from "./components/TopBanner";
-import OpenToWork from "./components/OpenToWork";
+
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
 
         <div className="app-middle">
           <Header />
-          <OpenToWork/>
+          
            <div className="middle-container">
           <Routes>
             <Route exact path="/" element={<Landing />} />

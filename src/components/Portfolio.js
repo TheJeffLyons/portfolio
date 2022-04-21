@@ -5,9 +5,9 @@ function Portfolio() {
   return (
     <div className="port-container">
       <div className="port-body">
-        <div className="port-title">
+        {/* <div className="port-title">
           <h1>Portfolio</h1>
-        </div>
+        </div> */}
 
         <div className="port-photos">
           <div className="project-card">

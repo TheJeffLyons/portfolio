@@ -1,48 +1,47 @@
 .education-container {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-bottom: 40px;
+  flex-direction: column;
+  border: 1px solid #bababa;
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 130vh;
+  padding: 10px;
+
 }
 
 .edu-body-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
-.edu-body-container::-webkit-scrollbar {
-  display: none;
-}
 
 .education-body {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   width: 100%;
-  margin-left: 40px;
-  flex-wrap: wrap;
+  
 }
 
 .edu-left {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  margin-right: 5px;
-  flex-wrap: wrap;
+  
 }
 
 .edu-right {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  flex-wrap: wrap;
+  
 }
 
 .edu-card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+  
 }
 
 .edu-icon {
@@ -53,15 +52,8 @@
   width: 250px;
 }
 
-.vl {
-  border-left: 1px solid #1eb022;
-  height: 400px;
-  padding-right: 10px;
-  padding-left: 15px;
-}
-
 .edu-text {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  
 }

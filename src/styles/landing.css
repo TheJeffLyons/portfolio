@@ -2,19 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  width: 100%;
+  border: 1px solid #bababa;
+  background-color: white;
+  border-radius: 10px;
   margin: 30px;
+  padding: 10px;
+  height: 100%;
+  padding-bottom: 20px;
+  
 }
 
 .featured-container {
   display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-
-  width: 100%;
+  flex-direction: column;
+  align-items: center ;
+  
 }
 
 .port-youtube-video {
-  border-radius: 22px;
+  border-radius: 10px;
 }

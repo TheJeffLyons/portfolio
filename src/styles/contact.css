@@ -1,14 +1,13 @@
 .contact-container {
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-direction: column;
   flex-wrap: wrap;
-  margin-bottom: 80px;
+  padding: 4px;
 }
 
 .contact-body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex: 8;
   align-items: center;
   justify-content: center;
@@ -24,9 +23,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 95%;
   height: 100%;
-  margin-left: 40px;
   flex-wrap: wrap;
 }
 
@@ -40,10 +37,6 @@
 .email-form {
   display: flex;
   flex-direction: column;
-  padding: 50px;
-  box-shadow: 0px 0px 10px 1px black;
-  border: 2px solid #1eb022;
-  border-radius: 22px;
 }
 
 .form-input {
@@ -53,7 +46,6 @@
 .contact-text {
   display: flex;
   flex-direction: column;
-
   flex: 1;
 }
 
@@ -61,20 +53,20 @@
   border: none;
   font-size: 17px;
   background: transparent;
-  color: #1eb022;
-  border: 1px solid #1eb022;
+  color: #4ab8e0;
+  border: 1px solid #4ab8e0;
   padding: 10px;
   transition-duration: 0.2s;
-  border-radius: 22px;
+  border-radius: 10px;
 }
 
 .send-btn:hover {
   color: white;
-  background: #1eb022;
+  background: #4ab8e0;
 }
 
 .vl {
-  border-left: 3px solid #1eb022;
+  border-left: 3px solid #4ab8e0;
   height: 400px;
   padding-right: 10px;
   padding-left: 15px;

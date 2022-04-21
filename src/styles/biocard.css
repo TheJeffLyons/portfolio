@@ -1,0 +1,21 @@
+
+
+.bio-photo{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.bio-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bababa;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.bio-name{
+    font-size: x-large;
+}

@@ -9,6 +9,18 @@ function Landing() {
       </div>
 
       <div className="featured-container">
+      <div>
+          <iframe
+            className="youtube-video"
+            width="400"
+            height="250"
+            src="https://www.youtube.com/embed/r9R_IJ1w_FU"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div>
           <h3>
             <u>Local Donuts</u>
@@ -29,18 +41,7 @@ function Landing() {
           </p>
         </div>
 
-        <div>
-          <iframe
-            className="youtube-video"
-            width="500"
-            height="350"
-            src="https://www.youtube.com/embed/r9R_IJ1w_FU"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+       
       </div>
     </div>
   );

@@ -1,11 +1,14 @@
 .stack-container {
   display: flex;
   flex: 8;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  border-top: 1px solid #1eb022;
   padding-top: 5px;
   flex-wrap: wrap;
+  border: 1px solid #bababa;
+  height: 80vh;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .stack-icons {

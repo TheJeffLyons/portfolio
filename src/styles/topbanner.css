@@ -1,0 +1,9 @@
+.top-banner{
+    display: flex;
+    justify-content: center;
+    background-color: #4ab8e0;
+}
+
+.banner-text{
+    font-size: x-large;
+}

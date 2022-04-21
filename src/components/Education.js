@@ -44,7 +44,7 @@ function Education() {
               </p>
             </div>
           </div>
-          <div className="vl"></div>
+          
           <div className="edu-right">
             <div className="edu-card">
               <h2>
@@ -56,10 +56,12 @@ function Education() {
                 alt=""
               />
             </div>
+            <div className="edu-text">
             <h3>Current Student - Pursuing Software Development Degree</h3>
             <p>Currently taking a course in Python</p>
             <p>Photoshop</p>
             <p>Adobe Premiere Pro</p>
+            </div>
           </div>
         </div>
       </div>

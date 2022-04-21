@@ -3,6 +3,8 @@
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
+  height: 100%;
+  
 }
 
 .about-me-body {
@@ -10,7 +12,12 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  align-content: center;
+  border: 1px solid #bababa;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 .about-me-body::-webkit-scrollbar {
@@ -19,17 +26,19 @@
 
 .about-me-photos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
-  margin-left: 40px;
   flex-wrap: wrap;
+ 
+  
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   flex: 1;
+  
 }
 
 .about-photos {
@@ -38,11 +47,14 @@
   justify-content: space-evenly;
   flex: 1;
   align-items: center;
+  
+  
+  
 }
 
 .my-photos {
   width: 220px;
   height: 300px;
-  border-radius: 22px;
-  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 10px;
+  
 }

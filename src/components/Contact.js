@@ -31,7 +31,7 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-body">
         <div className="contact-title">
-          <h1>Contact</h1>
+          <h3><u>E-mail Me</u></h3>
         </div>
 
         <div className="form-container">
@@ -62,9 +62,9 @@ function Contact() {
             </form>
           </div>
 
-          <div className="vl"></div>
+          {/* <div className="vl"></div> */}
 
-          <div className="contact-text">
+          {/* <div className="contact-text">
             <h3>Reach Out!</h3>
             <p>
               Thank you for stopping and taking the time to review my portfolio.
@@ -76,7 +76,7 @@ function Contact() {
             </p>
             <p>Have a great day!</p>
             <p>~Jeff Lyons</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -84,3 +84,4 @@ function Contact() {
 }
 
 export default Contact;
+

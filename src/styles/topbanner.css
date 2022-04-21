@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 480px){
     .top-banner{
-        width: 460px;
+        width: 480px;
+        font-size: x-large;
     }
 }

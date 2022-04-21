@@ -57,3 +57,12 @@
   flex-direction: column;
   
 }
+
+@media screen and (max-width: 480px){
+  .education-container {
+  
+    border: none;
+  
+  
+  }
+}

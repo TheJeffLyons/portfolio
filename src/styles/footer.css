@@ -25,3 +25,9 @@
   font-size: smaller;
   align-items: center;
 }
+
+@media screen and (max-width: 480px){
+  .stack-container {
+ display: none;
+  }
+}

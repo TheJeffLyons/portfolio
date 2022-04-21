@@ -12,7 +12,7 @@ function Header() {
       <br></br>
 
       <Link className="header-link" to="/aboutme">
-        <p>About Me</p>
+        <p>About</p>
       </Link>
       <br></br>
 

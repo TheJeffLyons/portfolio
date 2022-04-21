@@ -2,3 +2,10 @@ body{
   background-color: #f5efef;
 }
 
+@media screen and (max-width: 480px){
+  body{
+    background-color: white;
+    
+  }
+}
+

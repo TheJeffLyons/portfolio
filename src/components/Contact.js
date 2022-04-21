@@ -62,21 +62,6 @@ function Contact() {
             </form>
           </div>
 
-          {/* <div className="vl"></div> */}
-
-          {/* <div className="contact-text">
-            <h3>Reach Out!</h3>
-            <p>
-              Thank you for stopping and taking the time to review my portfolio.
-            </p>
-            <p>
-              I hope you found interest in my work and I hope that we can work
-              together to change the world with code. If you have any questions
-              or to network and chat just drop a message in the box.
-            </p>
-            <p>Have a great day!</p>
-            <p>~Jeff Lyons</p>
-          </div> */}
         </div>
       </div>
     </div>
@@ -84,4 +69,3 @@ function Contact() {
 }
 
 export default Contact;
-

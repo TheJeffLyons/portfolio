@@ -12,3 +12,9 @@
     color: white;
     font-family: "PT Sans Caption", sans-serif;
 }
+
+@media screen and (max-width: 480px){
+    .top-banner{
+        width: 420px;
+    }
+}

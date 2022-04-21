@@ -8,14 +8,9 @@
   justify-content: space-evenly;
   font-family: "PT Sans Caption", sans-serif;
   margin-top: 10px;
-  /* overflow: hidden;
-  overflow-y: scroll;
-  overflow-x: scroll; */
-  /* border: 1px solid black; */
+
 }
-/* .app-left {
- flex: 1;
-} */
+
 .app-middle{
   display: flex;
   flex-direction: column;
@@ -35,7 +30,28 @@
   display: none;
 }
 
+@media screen and (max-width: 480px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    align-items: center;
+    background-color: white;
+  }
 
-/* .app-right{
-  flex: 1;
-} */
+  .app-container{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+  }
+
+  .app-middle{
+    width: 100%;
+    
+  }
+
+  .middle-container{
+    display: flex;
+    
+  }
+}

@@ -22,3 +22,15 @@
 .port-youtube-video {
   border-radius: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .youtube-video{
+    width: 420px;
+    height: 300px;
+  }
+
+  .landing-container{
+    border: none;
+  }
+  
+}

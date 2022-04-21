@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Portfolio from "./components/Portfolio";
@@ -11,16 +12,17 @@ import Header from "./components/Header"
 import BioCard from "./components/BioCard";
 import TopBanner from "./components/TopBanner";
 
-
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="app-container">
         <div>
           <TopBanner/>
         </div>
 
         <div className="App">
+
+        
 
         <div className="app-left">
         <BioCard />

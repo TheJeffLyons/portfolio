@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
+
+
 .top-banner{
     display: flex;
     justify-content: center;
@@ -7,4 +10,5 @@
 .banner-text{
     font-size: x-large;
     color: white;
+    font-family: "PT Sans Caption", sans-serif;
 }

@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 480px) {
   .about-me-container {
-  width: 420px;
+  width: fit-content;
   display: flex;
   justify-content: center;
   padding-left: 5px;

@@ -70,11 +70,10 @@ function Portfolio() {
                 <u>All Aboard!</u>
               </h3>
               <p>
-                This is the very first project that I have ever created. It is a
-                type of social media platform for people in the cryptocurrency
-                community. Users can go and chat in discussion boards, get live
-                updated cryptocurrency prices, and updated news related to
-                cryptocurrency.
+                It is a social media platform for people in the
+                cryptocurrency community. Users can go and chat in discussion
+                boards, get live updated cryptocurrency prices, and updated news
+                related to cryptocurrency.
               </p>
               <h3>
                 <u>Tech</u>

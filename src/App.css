@@ -28,7 +28,7 @@
     overflow: hidden;
   overflow-y: scroll;
   overflow-x: scroll;
-  height: 75vh;
+  height: 82vh;
 }
 
 .middle-container::-webkit-scrollbar {

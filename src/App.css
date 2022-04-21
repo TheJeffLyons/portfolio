@@ -11,6 +11,11 @@
 
 }
 
+.app-container{
+ margin-top: -8px;
+
+}
+
 .app-middle{
   display: flex;
   flex-direction: column;

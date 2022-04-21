@@ -5,12 +5,16 @@
     display: flex;
     justify-content: center;
     background-color: #4ab8e0;
+    height: 50px;
+    align-items: center;
+   
 }
 
 .banner-text{
-    font-size: x-large;
+    font-size: xx-large;
     color: white;
     font-family: "PT Sans Caption", sans-serif;
+    
 }
 
 @media screen and (max-width: 480px){

@@ -5,7 +5,6 @@ a{
 .port-container {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
 }
 
 .port-body {
@@ -77,6 +76,7 @@ a{
     margin: none;
     width: 400px;
     text-align: center;
+    margin-top: 20px
   }
 
   .port-photos{

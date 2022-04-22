@@ -5,10 +5,11 @@
   border: 1px solid #bababa;
   background-color: white;
   border-radius: 10px;
-  margin: 30px;
+  /* margin: 30px; */
   padding: 10px;
   height: 110vh;
   padding-bottom: 20px;
+  
   
 }
 
@@ -31,6 +32,7 @@
 
   .landing-container{
     border: none;
+    /* margin-right: 20px; */
   }
   
 }

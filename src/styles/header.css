@@ -12,12 +12,15 @@
 
 .header-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid #bababa;
   background-color: white;
-  width: 50vw;
+  align-items: center;
+  /* width: 50vw; */
   border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
 }
 
 .profile-pic {
@@ -33,10 +36,11 @@
     width: 470px;
     flex-wrap: wrap;
     border: none;
-    padding: 5px;
+    /* padding: 5px; */
     justify-content: center;
     margin-top: 5px;
     border-radius: 0px;
+    margin-left: -25px;
 
   }
 
@@ -44,4 +48,5 @@
    margin-right: 30px;
    
   }
+
 }

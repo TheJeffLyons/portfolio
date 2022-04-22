@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 4px;
+  /* padding: 4px; */
 }
 
 .contact-body {
   display: flex;
   flex-direction: column;
-  flex: 8;
+  /* flex: 8; */
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .contact-body::-webkit-scrollbar {
@@ -25,6 +25,7 @@
   align-items: center;
   height: 100%;
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 
 .contact-form {

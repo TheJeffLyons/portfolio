@@ -11,6 +11,7 @@ import Header from "./components/Header"
 import BioCard from "./components/BioCard";
 import TopBanner from "./components/TopBanner";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,12 +26,14 @@ function App() {
 
         <div className="app-left">
         <BioCard />
+        <Header />
         </div>
 
         <div className="app-middle">
-          <Header />
+          
           
            <div className="middle-container">
+             
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route path="aboutme" exact element={<AboutMe />} />
@@ -38,6 +41,7 @@ function App() {
             <Route path="portfolio" exact element={<Portfolio />} />
             <Route path="contact" exact element={<Contact />} />
           </Routes>
+          
         </div>
         </div>
 

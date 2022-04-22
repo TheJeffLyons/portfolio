@@ -16,7 +16,7 @@ function Contact() {
       .then(
         (result) => {
           alert(
-            "Thank you! Email sent. I will get back to you as soon as possible."
+            "Thank you! Message Received."
           );
           console.log(result.text);
         },
@@ -31,12 +31,13 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-body">
         <div className="contact-title">
-          <h3><u>E-mail Me</u></h3>
+          <span>Get in touch</span>
         </div>
 
         <div className="form-container">
           <div className="contact-form">
             <form className="email-form" onSubmit={sendEmail}>
+              
               <input
                 className="form-input"
                 type="text"

@@ -25,8 +25,8 @@ function Education() {
               <h3>Student - Full Stack Web Developer</h3>
 
               <p>
-                <b>Stack:</b> React, Javascript, Node.js, PostgreSQL, Express,
-                REST API, HTML5, CSS3, Heroku, Git, Github
+                React, Javascript, Node.js, PostgreSQL, Express,
+                REST API, HTML5, CSS3, Heroku, Git, Github, Figma, Agile, VS Code, Postman
               </p>
 
               
@@ -47,7 +47,7 @@ function Education() {
             <div className="edu-text2">
             <h3>Current Student - Pursuing Software Development Degree</h3>
             <p>Currently taking a course in Python</p>
-            <p>Photoshop</p>
+            <p>Photoshop, Agile, SDLC</p>
             <p>Adobe Premiere Pro</p>
             </div>
           </div>

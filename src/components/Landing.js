@@ -44,6 +44,26 @@ function Landing() {
             React, Javascript, Node.js, PostgreSQL, Express, Auth0, Stripe
             Payments, HTML5, CSS3
           </span>
+
+          <div className="project-links">
+                <a
+                  className="card-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/TheJeffLyons/Local-Donuts-Capstone"
+                >
+                  <span>Github</span>
+                </a>
+                <a
+                  className="card-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://local-donuts.herokuapp.com/"
+                >
+                  <span>View Website</span>
+                </a>
+              </div>
+
         </div>
          </div>
 
@@ -82,6 +102,18 @@ function Landing() {
           Javascript, Node.js, Express, HTML5, CSS3, JSON, BCRYPT,
                 CoinGecko API, NewsData.io API
           </span>
+
+          <div className="project-links">
+                <a
+                  className="card-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/TheJeffLyons/foundations-capstone"
+                >
+                  <span>Github</span>
+                </a>
+              </div>
+              
         </div>
          </div>
 

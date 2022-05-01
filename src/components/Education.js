@@ -22,7 +22,7 @@ function Education() {
               />
             </div>
             <div className="edu-text1">
-              <h3>Student - Full Stack Web Developer</h3>
+              <h3>Full Stack Web Developer</h3>
 
               <p>
                 React, Javascript, Node.js, PostgreSQL, Express,

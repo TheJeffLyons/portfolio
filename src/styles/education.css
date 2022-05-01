@@ -1,11 +1,11 @@
+
 .education-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid #bababa;
-  background-color: #ffffff;
+  background-color: none;
   border-radius: 10px;
-  height: 130vh;
   padding: 10px;
+  margin-top: 40px;
 
 }
 
@@ -16,31 +16,79 @@
   
 }
 
+.education-title{
+  font-size: 20px;
+  font-family: cursive;
+  -webkit-filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
+  filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
+}
+
 
 .education-body {
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 100%;
-  
+  /* border: 1px solid black; */
 }
 
 .edu-left {
   display: flex;
   flex-direction: column;
-  
+  /* background-color: rgb(12, 29, 120); */
+  border: 6px solid rgb(96, 118, 241);
+  color: rgb(0, 0, 0);
+  /* flex: 1; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px black;
+  font-family: cursive;
+
 }
 
 .edu-right {
   display: flex;
   flex-direction: column;
-  
+  /* background-color: rgb(243, 126, 43); */
+  border: 6px solid rgb(243, 126, 43);
+  color: rgb(0, 0, 0);
+  /* flex: 1; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px black;
+  font-family: cursive;
+
 }
 
-.edu-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  
+.edu-text1{
+  /* text-shadow: -1px -1px black; */
+  -webkit-filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
+  filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
+}
+
+.edu-text2{
+  /* text-shadow: -1px -1px black; */
+  -webkit-filter: drop-shadow(-10px 0px 10px rgb(243, 126, 43));
+  filter: drop-shadow(-10px 0px 10px rgb(243, 126, 43));
+}
+
+.edu-card1 {
+  -webkit-filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
+  filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
+}
+
+.edu-card2 {
+  -webkit-filter: drop-shadow(-10px 0px 20px rgb(243, 126, 43));
+  filter: drop-shadow(-10px 0px 20px rgb(243, 126, 43));
 }
 
 .edu-icon {
@@ -58,10 +106,26 @@
 }
 
 @media screen and (max-width: 480px){
-  .education-container {
-  
-    border: none;
-  
-  
+  .education-body {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100vw;
   }
+
+  .edu-left {
+    width: 100vw;
+  }
+
+  .edu-right {
+    margin-top: 30px;
+    width: 100vw;
+  }
+
+  .education-title{
+  text-align: center;
+  }
+
+
 }

@@ -1,32 +1,42 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/header.css";
 
 function Header() {
   return (
     <div className="header-container">
       
-      <Link className="header-link" to="/">
+      {/* <Link className="header-link" to="/">
         <p>Home</p>
       </Link>
-      <br></br>
+      <br></br> */}
 
-      <Link className="header-link" to="/aboutme">
+      {/* <Link className="header-link" to="/aboutme">
         <p>About</p>
       </Link>
+      <br></br> */}
+    <a href="#about" className="header-link">
+        <p>About</p>
+      </a>
       <br></br>
-
-      <Link className="header-link" to="/education">
+      <a href="#education" className="header-link">
         <p>Education</p>
-      </Link>
+      </a>
+      <br></br>
+      <a href="#landing" className="header-link">
+        <p>Portfolio</p>
+      </a>
+      <br></br>
+      <a href="#contact" className="header-link">
+        <p>Contact</p>
+      </a>
       <br></br>
 
-      <Link className="header-link" to="/portfolio">
+      {/* <Link className="header-link" to="/portfolio">
         <p>Portfolio</p>
       </Link>
-      <br></br>
+      <br></br> */}
 
-      <a
+      {/* <a
         className="header-link"
         rel="noopener noreferrer"
         target="_blank"
@@ -34,9 +44,9 @@ function Header() {
       >
         <p>R&#xe9;sum&#xe9;</p>
       </a>
-      <br></br>
+      <br></br> */}
 
-      <a
+      {/* <a
         className="header-link"
         rel="noopener noreferrer"
         target="_blank"
@@ -44,16 +54,16 @@ function Header() {
       >
         <p>Github</p>
       </a>
-      <br></br>
+      <br></br> */}
 
-      <a
+      {/* <a
         className="header-link"
         rel="noopener noreferrer"
         target="_blank"
         href="https://www.linkedin.com/in/jeff-lyons-710584233"
       >
         <p>LinkedIn</p>
-      </a>
+      </a> */}
       <br></br>
     </div>
   );

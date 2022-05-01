@@ -12,9 +12,11 @@ function Portfolio() {
         <div className="port-photos">
           <div className="project-card">
             <div className="project-data">
-              <h3>
+              <span><h3>
                 <u>Local Donuts</u>
               </h3>
+              </span>
+              <span>
               <p>
                 A make-believe e-commerce donut shop. It is a full stack web
                 application that allows users to create an account managed
@@ -22,13 +24,18 @@ function Portfolio() {
                 pickup and delivery orders, and make card payments using the
                 Stripe payment system. Hosted on Heroku.
               </p>
+              </span>
+              <span>
               <h3>
                 <u>Tech</u>
               </h3>
+              </span>
+              <span>
               <p>
                 React, Javascript, Node.js, PostgreSQL, Express, Auth0, Stripe
                 Payments, HTML5, CSS3
               </p>
+              </span>
               <div className="project-links">
                 <a
                   className="card-link"
@@ -49,7 +56,7 @@ function Portfolio() {
               </div>
             </div>
             <div>
-              <iframe
+              {/* <iframe
                 className="port-youtube-video"
                 width="400"
                 height="250"
@@ -58,7 +65,7 @@ function Portfolio() {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
+              ></iframe> */}
             </div>
           </div>
 
@@ -66,22 +73,30 @@ function Portfolio() {
 
           <div className="project-card">
             <div className="project-data">
+            <span>
               <h3>
                 <u>All Aboard!</u>
               </h3>
+              </span>
+              <span>
               <p>
                 It is a social media platform for people in the
                 cryptocurrency community. Users can go and chat in discussion
                 boards, get live updated cryptocurrency prices, and updated news
                 related to cryptocurrency.
               </p>
+              </span>
+              <span>
               <h3>
                 <u>Tech</u>
               </h3>
+              </span>
+              <span>
               <p>
                 Javascript, Node.js, Express, HTML5, CSS3, JSON, BCRYPT,
                 CoinGecko API, NewsData.io API
               </p>
+              </span>
               <div className="project-links">
                 <a
                   className="card-link"
@@ -94,7 +109,7 @@ function Portfolio() {
               </div>
             </div>
             <div>
-              <iframe
+              {/* <iframe
                 className="port-youtube-video"
                 width="400"
                 height="250"
@@ -103,7 +118,7 @@ function Portfolio() {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
+              ></iframe> */}
             </div>
           </div>
         </div>

@@ -9,9 +9,9 @@ function Education() {
           <h1>Education</h1>
         </div>
 
-        <div className="education-body">
+        <div className="education-body" id="education">
           <div className="edu-left">
-            <div className="edu-card">
+            <div className="edu-card1">
               <h2>
                 <u>DevMountain</u>
               </h2>
@@ -21,7 +21,7 @@ function Education() {
                 alt=""
               />
             </div>
-            <div className="edu-text">
+            <div className="edu-text1">
               <h3>Student - Full Stack Web Developer</h3>
 
               <p>
@@ -29,24 +29,12 @@ function Education() {
                 REST API, HTML5, CSS3, Heroku, Git, Github
               </p>
 
-              <p>
-                <b>All Aboard:</b> First project I created for cryptocurrency
-                users to find live prices for coins, get latest news both using
-                API’s, and users chat on message boards
-              </p>
-
-              <p>
-                <b>Local Donuts:</b> Local Donuts is a make-believe e-commerce
-                donut shop. It is a full stack web application that allows users
-                to create an account managed securely through Auth0, add and
-                remove items from a cart, create pickup and delivery orders, and
-                make card payments using the Stripe payment system.
-              </p>
+              
             </div>
           </div>
           
           <div className="edu-right">
-            <div className="edu-card">
+            <div className="edu-card2">
               <h2>
                 <u>Bellevue University</u>
               </h2>
@@ -56,7 +44,7 @@ function Education() {
                 alt=""
               />
             </div>
-            <div className="edu-text">
+            <div className="edu-text2">
             <h3>Current Student - Pursuing Software Development Degree</h3>
             <p>Currently taking a course in Python</p>
             <p>Photoshop</p>

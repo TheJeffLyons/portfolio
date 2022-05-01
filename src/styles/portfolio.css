@@ -22,25 +22,25 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 95%;
-  margin-left: 40px;
-  margin-right: 40px;
+  width: 30vw;
+  
   
 }
 
 .project-card {
   display: flex;
   flex-direction: row;
-  border: 1px solid #bababa;
+  border: 1px solid #ffffff;
   padding: 10px;
   border-radius: 10px;
-  background-color: white;
+  background-color: none;
+  color: white;
   
 }
 
 .card-link {
-  color: #000000;
-  border: 1px solid #bababa;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   padding: 5px;
   margin-right: 10px;
   border-radius: 10px;

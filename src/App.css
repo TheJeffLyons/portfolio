@@ -1,77 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
 
-.App {
-  display: flex;
-  flex-direction: row;
-  background-color: #f5efef;
-  justify-content: center;
-  justify-content: space-evenly;
-  font-family: "PT Sans Caption", sans-serif;
-  margin-top: 10px;
-
-}
-
 .app-container{
- margin-top: -4px;
-
-}
-
-.app-middle{
-  display: flex;
-  /* flex: 2; */
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-
-.middle-container{
-  display: flex;
-    overflow: hidden;
-  overflow-y: scroll;
-  overflow-x: scroll;
-  height: 82vh;
   width: 100%;
 }
 
-.middle-container::-webkit-scrollbar {
-  display: none;
-}
-
-.app-left{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 480px){
-  .App{
-    display: flex;
-    flex-direction: column;
-    width: 420px;
-    background-color: white;
-    
-  }
-
-  .app-container{
-    display: flex;
-    flex-direction: column;
-    width: 480px;
-    align-items: center;
-  }
-
-  .app-middle{
-    width: 100%;
-    
-  }
-
-  .middle-container{
-    display: flex;
-    overflow: visible;
-    
-  }
-
-  .app-left{
-    display: flex;
-    flex-direction: column;
-  }
+html {
+  scroll-behavior: smooth;
 }

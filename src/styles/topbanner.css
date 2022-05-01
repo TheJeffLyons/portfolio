@@ -1,21 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
 
 .top-banner{
+    margin-top: 15px;
     display: flex;
     justify-content: center;
-    background-color: #4ab8e0;
+    /* background-color: #4ab8e0; */
     height: 50px;
     align-items: center;
    
 }
 
-.banner-text{
-    font-size: xx-large;
-    color: white;
-    font-family: "PT Sans Caption", sans-serif;
-    
-}
+
+
+.top-banner {
+    -moz-animation: marquee 10s linear infinite;
+    -webkit-animation: marquee 10s linear infinite;
+    animation: marquee 10s linear infinite;
+  }
+  @-moz-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%)
+    }
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
 
 @media screen and (max-width: 480px){
     .top-banner{

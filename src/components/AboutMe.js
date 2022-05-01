@@ -1,17 +1,19 @@
 import React from "react";
 import "../styles/aboutme.css";
+import Contact from "./Contact";
 
 function AboutMe() {
   return (
     <div className="about-me-container">
-      <div className="about-me-body">
+      <div className="about-me-body" id="about">
         <div className="about-me-title">
-          <h1>About Me</h1>
+          <h1>Let's Connect</h1>
         </div>
 
-        <div className="about-me-photos">
+        <div className="about-me-box">
           <div className="text-container">
-            <p>
+            <h1 className="about-title">About me</h1>
+            <p className="about-text">
               My name is Jeff Lyons, and I currently reside in Pittsburgh,
               Pennsylvania. I am a US Army veteran (2008-2013) and I spent 10
               years working as an electronics technician and mechanical
@@ -24,11 +26,9 @@ function AboutMe() {
               thinking skills I gained as an electronics and mechanical tech
               helps when it comes to coding because reading and writing code is
               like reading and writing electrical diagrams as they both require
-              detailed problem-solving skills and critical thinking. (SIDE NOTE:
-              I use to manage an escape room, so I have a knack for solving
-              puzzles and working as a team)
+              detailed problem-solving skills and critical thinking.
             </p>
-            <p>
+            {/* <p>
               I have an amazing wife and two awesome children, a 5-year-old son
               and 4-year-old daughter, who I couldn’t live without. I am a huge
               football fan, and I enjoy participating in a fantasy football
@@ -37,9 +37,13 @@ function AboutMe() {
               and keep me up late at night. If you need some friendly
               competition, I am always ready to pick up the sticks and game.
               Rocket League and Apex Legends are my go-to.
-            </p>
+            </p> */}
           </div>
-          <div className="about-photos">
+          
+          <div className="contact-container">
+          <Contact/>
+          </div>
+          {/* <div className="about-photos">
             <img
               className="my-photos"
               src="https://res.cloudinary.com/redhero/image/upload/v1649833955/Donuts/picanime_moz6uw.jpg"
@@ -50,7 +54,7 @@ function AboutMe() {
               src="https://res.cloudinary.com/redhero/image/upload/v1649833955/Donuts/newIMG_2333_vhcqwz.jpg"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

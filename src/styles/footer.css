@@ -1,18 +1,18 @@
 .stack-container {
   display: flex;
-  flex: 8;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   padding-top: 5px;
   flex-wrap: wrap;
-  border: 1px solid #bababa;
+  /* border: 1px solid #bababa; */
   height: 80vh;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 10px;
 }
 
 .stack-icons {
   width: 40px;
+  text-shadow: 2px 2px;
 }
 
 .stack-icons:hover {

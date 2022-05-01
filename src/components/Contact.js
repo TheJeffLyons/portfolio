@@ -43,6 +43,7 @@ function Contact() {
                 type="text"
                 name="from_name"
                 placeholder="Name"
+                required
               />
 
               <input
@@ -58,6 +59,7 @@ function Contact() {
                 placeholder="Message"
                 cols="30"
                 rows="8"
+                required
               />
               <br></br>
               <input className="send-btn" type="submit" value="Send" />

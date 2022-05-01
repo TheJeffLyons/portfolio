@@ -79,12 +79,21 @@
 @media screen and (max-width: 480px){
   .contact-body {
     padding-top: 10px;
-    width: 100vw;
+    width: fit-content;
   }
 
   .contact-form{
-    width: 100vw;
+    width: fit-content;
     padding-top: 10px;
     padding-bottom: 20px;
   }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    /* padding: 4px; */
+  }
+
 }

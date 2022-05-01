@@ -112,12 +112,12 @@
 
 @media screen and (max-width: 480px) {
   .about-me-container {
-    width: 100vw;
+    width: fit-content;
   
   }
 
   .about-me-body {
-    width: 100vw;
+    width: fit-content;
     flex-direction: column;
     
    
@@ -126,18 +126,18 @@
   .about-me-box{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: fit-content;
     align-items: center;
 
   }
 
   .text-container {
-    width: 100vw;
+    width: fit-content;
   }
 
   .contact-container{
     margin-top: 30px;
-    width: 100vw;
+    width: fit-content;
     margin-bottom: 100px;
   }
 

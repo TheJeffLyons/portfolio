@@ -111,22 +111,42 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 100vw;
+    /* align-content: center; */
+    align-items: center;
+    width: fit-content;
   }
 
   .edu-left {
-    width: 100vw;
+    width: fit-content;
+    padding: 0px;
   }
 
   .edu-right {
     margin-top: 30px;
-    width: 100vw;
+    width: fit-content;
+    padding: 0px;
   }
 
   .education-title{
   text-align: center;
   }
 
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    border-radius: 10px;
+    padding: none;
+    margin-top: 40px;
+    width: fit-content;
+   
+  }
+
+  .edu-body-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+  }
 
 }

@@ -45,7 +45,7 @@ function Education() {
               />
             </div>
             <div className="edu-text2">
-            <h3>Current Student - Pursuing Software Development Degree</h3>
+            <h3>Current Student - Pursuing Bachelor's in Software Development</h3>
             <p>Currently taking a course in Python</p>
             <p>Photoshop, Agile, SDLC</p>
             <p>Adobe Premiere Pro</p>

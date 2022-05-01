@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 .education-container {
   display: flex;
@@ -18,7 +19,7 @@
 
 .education-title{
   font-size: 20px;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
   filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
 }
@@ -47,7 +48,7 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
 
 }
 
@@ -65,7 +66,7 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
 
 }
 

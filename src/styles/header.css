@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 
 .header-link {
   text-decoration: none;
   color: white;
   margin: 15px;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
 }
 
 .header-link:hover {

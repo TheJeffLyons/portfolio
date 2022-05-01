@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 .landing-container{
   display: flex;
   flex-direction: column;
@@ -29,20 +31,23 @@
   box-shadow: 0px 0px 15px 2px black;
   color: rgb(0, 0, 0);
   padding: 3px;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
+
   /* text-shadow: -1px -1px black; */
 }
 
 .landing-title{
   font-size: 30px;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
+
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(162, 174, 26));
   filter: drop-shadow(-10px 0px 20px rgb(162, 174, 26));
 }
 
 .title{
   font-size: 45px;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
+
   -webkit-filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
   filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
 }

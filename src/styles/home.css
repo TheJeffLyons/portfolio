@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 
 .home-banner{
@@ -23,7 +23,7 @@
 .banner-text{
   color: rgb(3, 3, 3);
   flex: 1;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
   text-shadow: -3px -1px black;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .banner-text-two{
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 
@@ -62,9 +62,13 @@
   animation-iteration-count: infinite;
 }
 
+a{
+  text-decoration: none;
+}
 
 .resume-text{
-  font-size: 20px;
+  font-size: 30px;
+  
 }
 
 .resume-button {
@@ -146,7 +150,7 @@
     text-align: center;
     color: rgb(3, 3, 3);
     flex: 1;
-    font-family: cursive;
+    font-family: 'Kalam', cursive;
     text-shadow: -3px -1px black;
   }
 

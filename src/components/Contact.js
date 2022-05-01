@@ -50,6 +50,7 @@ function Contact() {
                 type="email"
                 name="email"
                 placeholder="Email"
+                required
               />
 
               <textarea

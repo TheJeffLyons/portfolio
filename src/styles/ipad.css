@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.ipad-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ipad-header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(73, 173, 255);
+    justify-content: space-evenly;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -9px;
+    box-shadow: 0px 0px 20px 1px black;
+    color: white;
+}
+
+.cart-pic{
+    margin-top: 10px;
+    width: 30px;
+    color: white;
+}
+
+.ipad-link-container{
+    display: flex;
+    width: 50%;
+    
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row; 
+}
+
+li{
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+.ipad-company-name{
+    font-size: 10px;
+}
+
+.ipad-img-one{
+    display: flex;
+    background: url('https://res.cloudinary.com/redhero/image/upload/v1651553850/Portfolio/4901906cv11d_bqmbya.jpg') no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: 80px 100px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    
+}
+
+.ipad-img-two{
+    display: flex;
+    background: url('https://res.cloudinary.com/redhero/image/upload/v1651555487/Portfolio/4901906_sd_xkhhtp.jpg') no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: 80px 100px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.ipad-img-three{
+    display: flex;
+    background: url('https://res.cloudinary.com/redhero/image/upload/v1651611959/Portfolio/4901906cv12d_clen58.jpg') no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: 80px 100px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.ipad-img-four{
+    display: flex;
+    background: url('https://res.cloudinary.com/redhero/image/upload/v1651611953/Portfolio/4901906cv13d_vuah2e.jpg') no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: 80px 100px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background: none;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.ipad-img-one:hover{
+    border: 1px solid rgb(73, 173, 255);
+    cursor: pointer;
+}
+
+.ipad-img-two:hover{
+    border: 1px solid rgb(73, 173, 255);
+    cursor: pointer;
+}
+
+.ipad-img-three:hover{
+    border: 1px solid rgb(73, 173, 255);
+    cursor: pointer;
+}
+
+.ipad-img-four:hover{
+    border: 1px solid rgb(73, 173, 255);
+    cursor: pointer;
+}
+
+.ipad-photo-display{
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+}
+
+.photo-btns{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ipad-product-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ipad-product-text{
+    display: inline;
+    flex: 1;
+}
+
+.stars{
+    color: rgb(73, 173, 255);
+    font-size: 20px;
+}
+
+.ipad-price{
+    color: rgb(4, 162, 4);
+}
+
+.add-to-cart-container{
+    display: flex;
+    justify-content: center;
+}
+
+.add-to-cart-btn{
+    border: 2px solid rgb(73, 173, 255);
+    padding: 15px;
+    width: 300px;
+    background: none;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.add-to-cart-btn:hover{
+    background-color: rgb(73, 173, 255);
+    color: white;
+
+}
+
+@media screen and (max-width: 480px){
+
+    .ipad-container{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+
+    .ipad-header{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(73, 173, 255);
+        justify-content: space-evenly;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        box-shadow: none;
+        color: white;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .ipad-link-container{
+        display: flex;
+        width: 100%;
+    }
+
+    li{
+        margin-right: 20px;
+        list-style-type: none;
+    }
+
+    .ipad-product-container{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .ipad-company-name{
+        display: none;
+    }
+
+    .photo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        background: none;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        width: fit-content;
+    }
+
+    .photo-btns{
+        width: fit-content;
+    }
+    
+    .ipad-photo-display{
+        width: 95vw;
+        /* height: fit-content; */
+        padding: 10px;
+    }
+    
+    .ipad-product-text{
+    display: inline;
+    flex: 1;
+    /* width: fit-content; */
+    flex-wrap: wrap;
+    font-size: smaller;
+    }
+
+    .add-to-cart-container{
+        margin-bottom: 100px;
+        width: fit-content;
+    }
+
+    .cart-pic{
+    margin-right: 30px;
+    }
+
+}

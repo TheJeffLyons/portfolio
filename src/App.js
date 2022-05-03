@@ -1,29 +1,19 @@
 import React from "react";
-import { BrowserRouter} from "react-router-dom";
-import AboutMe from "./components/AboutMe";
-import Education from "./components/Education";
-import Landing from "./components/Landing";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
+import Main from "./components/Main";
+import Ipad from "./pages/Ipad";
 
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="app-container">
-        <div>
-        <Home />
-        <Landing />
-        <Education />
-        <AboutMe/>
-        </div>
-
-        <div>
-        
-        </div>
-       
-
-      </div>
+   <div>
+     <Routes>
+       <Route path="/" exact element={<Main/>} />
+       <Route path="/ipad" exact element={<Ipad/>} />
+     </Routes>
+   </div>
     </BrowserRouter>
   );
 }

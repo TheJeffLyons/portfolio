@@ -4,7 +4,7 @@ import '../styles/ipad.css'
 function Ipad() {
 
   const ipadPhotoDisplayOne = 'https://res.cloudinary.com/redhero/image/upload/v1651553850/Portfolio/4901906cv11d_bqmbya.jpg'
-  const ipadPhotoDisplayTwo = 'https://res.cloudinary.com/redhero/image/upload/v1651555487/Portfolio/4901906_sd_xkhhtp.jpg'
+  const ipadPhotoDisplayTwo = 'https://res.cloudinary.com/redhero/image/upload/c_scale,h_600,w_420/v1651555487/Portfolio/4901906_sd_xkhhtp.jpg'
   const ipadPhotoDisplayThree = 'https://res.cloudinary.com/redhero/image/upload/c_scale,h_600,w_420/v1651611959/Portfolio/4901906cv12d_clen58.jpg'
   const ipadPhotoDisplayFour = 'https://res.cloudinary.com/redhero/image/upload/c_scale,h_600,w_420/v1651611953/Portfolio/4901906cv13d_vuah2e.jpg'
 

@@ -14,7 +14,13 @@ function Landing() {
         <div className="">
           <span style={{ color: "red" }}>Watch Demo!</span>
           <br></br>
-          <iframe
+          <div>
+          <video width='320' height='600' loop autoPlay muted>
+                <source className="product-video" src="https://res.cloudinary.com/redhero/video/upload/v1651724860/RPReplay_Final1651724713_m5gil2.mp4" type="video/mp4" />
+                Your browser does not support the video tag
+            </video>
+          </div>
+          {/* <iframe
             className="product-video"
             width="600"
             height="500"
@@ -23,7 +29,7 @@ function Landing() {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
           <br></br>
    
         </div>

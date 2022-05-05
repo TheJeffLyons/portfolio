@@ -18,6 +18,7 @@ function Landing() {
             className="product-video"
             width="600"
             height="500"
+            title="product-demo"
             src="https://res.cloudinary.com/redhero/video/upload/v1651724860/RPReplay_Final1651724713_m5gil2.mp4"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

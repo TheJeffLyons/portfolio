@@ -37,7 +37,7 @@ function Landing() {
             <h1>Product Page Demo</h1>
           </span>
           <span>
-            <h2>Made with React</h2>
+            <h2>Made with React & CSS3</h2>
           </span>
           <span>
             <h2>Mobile Ready!</h2>

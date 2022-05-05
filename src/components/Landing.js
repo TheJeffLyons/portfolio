@@ -23,6 +23,7 @@ function Landing() {
           <img
             className="product-img"
             src="https://res.cloudinary.com/redhero/image/upload/v1651612655/Portfolio/Screenshot_20_mzujst.png"
+            alt=""
           />
           <span>
             <h1>Product Page Demo</h1>

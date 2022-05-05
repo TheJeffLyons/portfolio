@@ -12,7 +12,7 @@ function Landing() {
 
       <div className="product-container">
         <div className="">
-          <span style={{ color: "red" }}>Click to play!</span>
+          <span style={{ color: "red" }}>Watch Demo!</span>
           <br></br>
           <iframe
             className="product-video"

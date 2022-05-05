@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 .header-link {
   text-decoration: none;
   color: white;
   margin: 15px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 }
 
 .header-link:hover {
   color: red;
-  
 }
 
 .header-container {
@@ -22,11 +20,4 @@
 
 .profile-pic {
   width: 100px;
-}
-
-@media screen and (max-width: 480px){
-
-
-
-
 }

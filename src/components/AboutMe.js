@@ -39,22 +39,10 @@ function AboutMe() {
               Rocket League and Apex Legends are my go-to.
             </p> */}
           </div>
-          
+
           <div className="contact-container">
-          <Contact/>
+            <Contact />
           </div>
-          {/* <div className="about-photos">
-            <img
-              className="my-photos"
-              src="https://res.cloudinary.com/redhero/image/upload/v1649833955/Donuts/picanime_moz6uw.jpg"
-              alt=""
-            />
-            <img
-              className="my-photos"
-              src="https://res.cloudinary.com/redhero/image/upload/v1649833955/Donuts/newIMG_2333_vhcqwz.jpg"
-              alt=""
-            />
-          </div> */}
         </div>
       </div>
     </div>

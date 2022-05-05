@@ -1,0 +1,35 @@
+.backtotop-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 1450px;
+  background-color: rgb(204, 0, 0);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.back-to-top-icon {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .backtotop-btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 300px;
+    background-color: rgb(204, 0, 0);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  }
+}

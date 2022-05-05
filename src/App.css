@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
-
-.app-container{
+.app-container {
   width: 100%;
 }
 
@@ -9,7 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  font-family: 'Kalam', cursive;
-  
+body {
+  font-family: "Kalam", cursive;
 }

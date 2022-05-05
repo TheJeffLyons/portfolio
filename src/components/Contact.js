@@ -15,9 +15,7 @@ function Contact() {
       )
       .then(
         (result) => {
-          alert(
-            "Thank you! Message Received."
-          );
+          alert("Thank you! Message Received.");
           console.log(result.text);
         },
         (error) => {
@@ -37,7 +35,6 @@ function Contact() {
         <div className="form-container">
           <div className="contact-form">
             <form className="email-form" onSubmit={sendEmail}>
-              
               <input
                 className="form-input"
                 type="text"
@@ -65,7 +62,6 @@ function Contact() {
               <input className="send-btn" type="submit" value="Send" />
             </form>
           </div>
-
         </div>
       </div>
     </div>

@@ -26,8 +26,8 @@
   align-items: center;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 900px) {
   .stack-container {
- display: none;
+    display: none;
   }
 }

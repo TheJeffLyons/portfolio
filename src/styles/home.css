@@ -1,74 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
-
-.home-banner{
-  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
-  /* height: 80%; */
+.home-banner {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  
 }
 
-.avatar{
+.avatar {
   margin-bottom: 1px;
   width: 100%;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(0, 0, 0));
   filter: drop-shadow(-10px 0px 20px rgb(0, 0, 0));
 }
 
-.avatar-container{
+.avatar-container {
   display: flex;
   width: 33%;
 }
 
-
-
-.banner-text{
+.banner-text {
   color: rgb(3, 3, 3);
   flex: 1;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   text-shadow: -3px -1px black;
 }
 
-.banner-text-one{
+.banner-text-one {
   font-size: 70px;
   color: white;
 }
 
-.banner-text-two{
+.banner-text-two {
   font-size: 40px;
   color: white;
 }
 
-.banner-container{
+.banner-container {
   display: flex;
   flex-direction: row;
   width: 100%;
-  
 }
 
-.banner-buttons-container{
+.banner-buttons-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
-.banner-icons{
+.banner-icons {
   width: 70px;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(0, 0, 0));
   filter: drop-shadow(-10px 0px 14px rgb(0, 0, 0));
 }
 
-.banner-icons:hover{
+.banner-icons:hover {
   animation: shake 0.8s;
   animation-iteration-count: infinite;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.resume-text{
+.resume-text {
   font-size: 30px;
-  
 }
 
 .resume-button {
@@ -119,83 +119,100 @@ a{
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
-@media screen and (max-width: 480px){
-  .banner-container{
+@media screen and (max-width: 900px) {
+  .banner-container {
     display: flex;
     flex-direction: column;
     width: fit-content;
     align-items: center;
     padding: 5px;
     padding-bottom: 20px;
-    
   }
 
-  .avatar-container{
+  .avatar-container {
     display: flex;
     width: 50%;
   }
 
-  .banner-text{
+  .banner-text {
     text-align: center;
     color: rgb(3, 3, 3);
     flex: 1;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
     text-shadow: -3px -1px black;
   }
 
-  .banner-text-one{
+  .banner-text-one {
     font-size: 30px;
     color: white;
   }
 
-  .banner-text-two{
+  .banner-text-two {
     font-size: 20px;
     color: white;
   }
 
- /* .home-container{
-   width: 100vw;
- } */
 
- .home-banner{
-  width: fit-content;
-   border-radius: 10px;
- }
+  .home-banner {
+    width: fit-content;
+    border-radius: 10px;
+  }
 
- .avatar{
-  margin-bottom: 1px;
-  width: 100%;
-  -webkit-filter: drop-shadow( 0px 0px 0px rgb(0, 0, 0));
-  filter: drop-shadow( 0px 0px 0px rgb(0, 0, 0));
-}
+  .avatar {
+    margin-bottom: 1px;
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 0px 0px rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px 0px rgb(0, 0, 0));
+  }
 
-.banner-icons{
-  width: 70px;
-  -webkit-filter: drop-shadow( 0px 0px 0px rgb(0, 0, 0));
-  filter: drop-shadow( 0px 0px 0px rgb(0, 0, 0));
-}
+  .banner-icons {
+    width: 70px;
+    -webkit-filter: drop-shadow(0px 0px 0px rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px 0px rgb(0, 0, 0));
+  }
 
-.banner-buttons-container{
-  justify-content: space-around;
-}
+  .banner-buttons-container {
+    justify-content: space-around;
+  }
 
-.resume-button {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px 30px;
-}
-
+  .resume-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+  }
 }

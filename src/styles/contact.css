@@ -76,13 +76,13 @@
   padding-left: 15px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 900px) {
   .contact-body {
     padding-top: 10px;
     width: fit-content;
   }
 
-  .contact-form{
+  .contact-form {
     width: fit-content;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -95,5 +95,4 @@
     width: 95%;
     /* padding: 4px; */
   }
-
 }

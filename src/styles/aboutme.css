@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 .about-me-container {
   display: flex;
@@ -6,7 +6,6 @@
   width: 100%;
   flex-wrap: wrap;
   height: 100%;
-  
 }
 
 .about-me-body {
@@ -15,12 +14,9 @@
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
-  /* border: 1px solid #bababa; */
-  /* background-color: white; */
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  
 }
 
 .about-me-body::-webkit-scrollbar {
@@ -33,15 +29,11 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  /* width: 100%; */
-  /* flex-wrap: wrap; */
- 
-  
 }
 
-.about-me-title{
+.about-me-title {
   font-size: 20px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(213, 176, 11));
   filter: drop-shadow(-10px 0px 10px rgb(213, 176, 11));
 }
@@ -49,45 +41,38 @@
 .text-container {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(12, 29, 120); */
   border: 6px solid rgb(255, 59, 102);
   color: rgb(0, 0, 0);
-  /* flex: 1; */
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 45%;
-  /* padding: 10px; */
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   font-size: 20px;
-  
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(243, 126, 43); */
   border: 6px solid rgb(52, 214, 3);
   color: rgb(0, 0, 0);
-  /* flex: 1; */
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 45%;
-  /* padding: 10px; */
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 }
 
-.about-title{
+.about-title {
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(255, 59, 102));
   filter: drop-shadow(-10px 0px 20px rgb(255, 59, 102));
 }
 
-.about-text{
+.about-text {
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(255, 59, 102));
   filter: drop-shadow(-10px 0px 20px rgb(255, 59, 102));
 }
@@ -98,47 +83,38 @@
   justify-content: space-evenly;
   flex: 1;
   align-items: center;
-  
-  
-  
 }
 
 .my-photos {
   width: 220px;
   height: 300px;
   border-radius: 10px;
-  
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .about-me-container {
     width: fit-content;
-  
   }
 
   .about-me-body {
     width: fit-content;
     flex-direction: column;
-    
-   
   }
 
-  .about-me-box{
+  .about-me-box {
     display: flex;
     flex-direction: column;
     width: fit-content;
     align-items: center;
-
   }
 
   .text-container {
     width: fit-content;
   }
 
-  .contact-container{
+  .contact-container {
     margin-top: 30px;
     width: fit-content;
     margin-bottom: 100px;
   }
-
 }

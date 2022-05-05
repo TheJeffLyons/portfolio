@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 .education-container {
   display: flex;
@@ -7,23 +7,20 @@
   border-radius: 10px;
   padding: 10px;
   margin-top: 40px;
-
 }
 
 .edu-body-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.education-title{
+.education-title {
   font-size: 20px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
   filter: drop-shadow(-10px 0px 20px rgb(238, 0, 0));
 }
-
 
 .education-body {
   margin-top: 40px;
@@ -48,8 +45,7 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: 'Kalam', cursive;
-
+  font-family: "Kalam", cursive;
 }
 
 .edu-right {
@@ -66,17 +62,16 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
-  font-family: 'Kalam', cursive;
-
+  font-family: "Kalam", cursive;
 }
 
-.edu-text1{
+.edu-text1 {
   /* text-shadow: -1px -1px black; */
   -webkit-filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
   filter: drop-shadow(-10px 0px 10px rgb(96, 118, 241));
 }
 
-.edu-text2{
+.edu-text2 {
   /* text-shadow: -1px -1px black; */
   -webkit-filter: drop-shadow(-10px 0px 10px rgb(243, 126, 43));
   filter: drop-shadow(-10px 0px 10px rgb(243, 126, 43));
@@ -103,10 +98,9 @@
 .edu-text {
   display: flex;
   flex-direction: column;
-  
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 900px) {
   .education-body {
     margin-top: 40px;
     display: flex;
@@ -127,8 +121,8 @@
     padding: 0px;
   }
 
-  .education-title{
-  text-align: center;
+  .education-title {
+    text-align: center;
   }
 
   .education-container {
@@ -139,14 +133,11 @@
     padding: none;
     margin-top: 40px;
     width: fit-content;
-   
   }
 
   .edu-body-container {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    
   }
-
 }

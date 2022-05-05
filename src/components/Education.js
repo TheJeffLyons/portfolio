@@ -25,14 +25,12 @@ function Education() {
               <h3>Full Stack Web Developer</h3>
 
               <p>
-                React, Javascript, Node.js, PostgreSQL, Express,
-                REST API, HTML5, CSS3, Heroku, Git, Github, Figma, Agile, VS Code, Postman
+                React, Javascript, Node.js, PostgreSQL, Express, REST API,
+                HTML5, CSS3, Heroku, Git, Github, Figma, Agile, VS Code, Postman
               </p>
-
-              
             </div>
           </div>
-          
+
           <div className="edu-right">
             <div className="edu-card2">
               <h2>
@@ -45,10 +43,12 @@ function Education() {
               />
             </div>
             <div className="edu-text2">
-            <h3>Current Student - Pursuing Bachelor's in Software Development</h3>
-            <p>Currently taking a course in Python</p>
-            <p>Photoshop, Agile, SDLC</p>
-            <p>Adobe Premiere Pro</p>
+              <h3>
+                Current Student - Pursuing Bachelor's in Software Development
+              </h3>
+              <p>Currently taking a course in Python</p>
+              <p>Photoshop, Agile, SDLC</p>
+              <p>Adobe Premiere Pro</p>
             </div>
           </div>
         </div>

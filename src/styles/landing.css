@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
-.landing-container{
+.landing-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,19 +9,19 @@
   text-align: center;
   margin-top: 40px;
   width: 100%;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 }
 
-.featured-container{
+.featured-container {
   margin-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 }
 
-.landing-text{
+.landing-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -33,45 +33,43 @@
   box-shadow: 0px 0px 15px 2px black;
   color: rgb(0, 0, 0);
   padding: 3px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 
   /* text-shadow: -1px -1px black; */
 }
 
-.landing-title{
+.landing-title {
   font-size: 30px;
-  font-family: 'Kalam', cursive;
-
+  font-family: "Kalam", cursive;
+  margin-bottom: 60px;
   -webkit-filter: drop-shadow(-10px 0px 20px rgb(255, 140, 0));
   filter: drop-shadow(-10px 0px 10px rgb(255, 140, 0));
 }
 
-.title{
+.title {
   font-size: 45px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 
   -webkit-filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
   filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
 }
 
-.landing-p{
+.landing-p {
   font-size: 20px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   -webkit-filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
   filter: drop-shadow(-10px 0px 10px rgba(184, 73, 184, 0.999));
 }
 
-.video-container{
+.video-container {
   width: 45%;
- 
 }
 
-.youtube-video{
+.youtube-video {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px black;
 }
-
 
 .project-links {
   display: flex;
@@ -88,7 +86,6 @@
   margin-right: 10px;
   border-radius: 10px;
   width: 100px;
-  
 }
 
 .card-link:hover {
@@ -96,24 +93,52 @@
   color: white;
 }
 
+.product-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  padding: 10px;
+  border: 6px solid rgba(184, 73, 184, 0.999);
+  box-shadow: 0px 0px 15px 2px black;
+  border-radius: 10px;
+}
 
+.product-video {
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+}
 
-@media screen and (max-width: 480px) {
-  .landing-title{
+.product-img {
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.product-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .landing-title {
     font-size: 20px;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
+    margin-bottom: 40px;
   }
-  
-  .featured-container{
+
+  .featured-container {
     margin-top: 80px;
     width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
   }
 
-  .landing-text{
+  .landing-text {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -126,17 +151,16 @@
     box-shadow: 0px 0px 15px 2px black;
     color: rgb(0, 0, 0);
     padding: 3px;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
 
     /* text-shadow: -1px -1px black; */
   }
 
-  .video-container{
+  .video-container {
     width: 100%;
-    
   }
-  
-  .landing-container{
+
+  .landing-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +169,28 @@
     text-align: center;
     margin-top: 40px;
     width: fit-content;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
   }
 
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 6px solid rgba(184, 73, 184, 0.999);
+    box-shadow: 0px 0px 15px 2px black;
+    border-radius: 10px;
+  }
+
+  .product-video {
+    width: 320px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+  }
+
+  .product-img {
+    width: 320px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+  }
 }

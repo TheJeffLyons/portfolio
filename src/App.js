@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
    <div>
-     <BackToTop />
+     {/* <BackToTop /> */}
      <Routes>
        <Route path="/" exact element={<Main/>} />
        <Route path="/ipad" exact element={<Ipad/>} />

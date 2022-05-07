@@ -35,9 +35,7 @@ function Landing() {
           <span>
             <h2>Made with React & CSS3</h2>
           </span>
-          <span>
-            <h2>Mobile Ready!</h2>
-          </span>
+       
           <div>
             <div className="project-links">
               <a

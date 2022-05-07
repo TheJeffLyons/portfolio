@@ -46,8 +46,8 @@ function Education() {
               <h3>
                 Current Student - Pursuing Bachelor's in Software Development
               </h3>
-              <p>Currently taking a course in Python</p>
-              <p>Photoshop, Agile, SDLC</p>
+              <p>Python</p>
+              <p>Photoshop</p>
               <p>Adobe Premiere Pro</p>
             </div>
           </div>

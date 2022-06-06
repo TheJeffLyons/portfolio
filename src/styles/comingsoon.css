@@ -1,0 +1,34 @@
+
+.comingsoon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comingsoon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 100px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 5px black;
+}
+
+.banner-icons{
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.soon-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}

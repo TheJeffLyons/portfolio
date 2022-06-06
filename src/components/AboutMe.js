@@ -20,13 +20,8 @@ function AboutMe() {
               technician before making a change to Web Development. My coding
               journey began at Dev Mountain, where I completed an intense course
               and professional training, to gain the necessary skills to become
-              a full stack web developer. I am also pursuing a Software
-              Development degree, at Bellevue University. I take pride in being
-              a fast learner and I can adapt to any situation. The analytical
-              thinking skills I gained as an electronics and mechanical tech
-              helps when it comes to coding because reading and writing code is
-              like reading and writing electrical diagrams as they both require
-              detailed problem-solving skills and critical thinking.
+              a full stack web developer. I take pride in being
+              a fast learner and I can adapt to any situation.
             </p>
             {/* <p>
               I have an amazing wife and two awesome children, a 5-year-old son

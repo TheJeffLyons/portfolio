@@ -1,18 +1,13 @@
 import React from "react";
-import AboutMe from "../components/AboutMe";
-import Education from "../components/Education";
-import Landing from "../components/Landing";
-import Home from "../components/Home";
 import "../App.css";
+import ComingSoon from "./ComingSoon";
 
 function Main() {
   return (
     <div className="app-container">
       <div>
-        <Home />
-        <Landing />
-        <Education />
-        <AboutMe />
+        <ComingSoon />
+       
       </div>
 
       <div></div>

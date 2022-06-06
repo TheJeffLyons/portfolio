@@ -5,7 +5,7 @@ function ComingSoon() {
   return (
       <div className='comingsoon-container'>
     <div className='comingsoon'>
-        <div><h1>Jeff Lyons - Software Developer</h1></div>
+        <div><h1>Jeff Lyons - Software Engineer</h1></div>
         <div><h2>Portfolio coming soon...</h2></div>
         <div><h2>Thank you for stopping by. I am currently in the process of updating and will have it up soon. Please see my LinkedIn for more information or to contact me; you can also message me in the chatbot down below.</h2></div>
         <div className='soon-icons'>      

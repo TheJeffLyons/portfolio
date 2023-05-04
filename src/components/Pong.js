@@ -30,7 +30,7 @@ const Paddle = ({ top, left }) => (
     />
   );
   
-  const App = () => {
+  const Pong = () => {
     const [player1Top, setPlayer1Top] = useState(200);
     const [player2Top, setPlayer2Top] = useState(200);
     const [ballTop, setBallTop] = useState(200);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 
-function Pong (){
+
+
     const Paddle = ({ top, left }) => (
         <div
           className="paddle"
@@ -31,7 +31,7 @@ function Pong (){
         />
       );
       
-      const App = () => {
+      const Pong = () => {
         const [player1Top, setPlayer1Top] = useState(200);
         const [player2Top, setPlayer2Top] = useState(200);
         const [ballTop, setBallTop] = useState(200);
@@ -114,6 +114,6 @@ function Pong (){
       <Paddle top={player2Top} left={580} />
       <Ball top={ballTop} left={ballLeft} />
     </div>
-  )}}
+  )}
 
   export default Pong

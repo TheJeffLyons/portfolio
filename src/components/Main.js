@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import ComingSoon from "./ComingSoon";
-import BubbleGame from "./Pong";
+import BubbleGame from "./BubbleGame";
 
 function Main() {
   return (

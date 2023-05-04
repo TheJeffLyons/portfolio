@@ -112,3 +112,5 @@ const App = () => {
       <Ball top={ballTop} left={ballLeft} />
     </div>
   )}
+
+  export default Pong

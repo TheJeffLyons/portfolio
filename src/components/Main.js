@@ -1,14 +1,14 @@
 import React from "react";
 import "../App.css";
 import ComingSoon from "./ComingSoon";
-import Pong from "./Pong";
+import BubbleGame from "./Pong";
 
 function Main() {
   return (
     <div className="app-container">
       <div>
         <ComingSoon />
-       <Pong />
+       <BubbleGame />
       </div>
 
       <div></div>

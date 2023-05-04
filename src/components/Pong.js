@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+function Pong (){
 const Paddle = ({ top, left }) => (
   <div
     style={{
@@ -111,6 +112,6 @@ const App = () => {
       <Paddle top={player2Top} left={580} />
       <Ball top={ballTop} left={ballLeft} />
     </div>
-  )}
+  )}}
 
   export default Pong
